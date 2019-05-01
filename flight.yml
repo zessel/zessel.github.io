@@ -42,6 +42,14 @@ paths:
           schema:
             type : string
           example: MSA3028
+        - user_id:
+          in: query
+          required: true
+          description: Customer ID number
+          schema:
+            type: string
+            format: uuid
+          example: "b3a0f48e-78a4-44c3-8ff5-99033a778c4c"
       responses:
         '200':    # status code
           description: ticket created
