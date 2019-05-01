@@ -49,6 +49,7 @@ paths:
             application/json:
               schema: 
                 type: string
-                example: "Reschedule ticket created for flight MSA3028"
+                example: 
+                  - "Reschedule ticket created for flight MSA3028"
         '400':
           description: Non-existant flight_id
