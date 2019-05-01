@@ -46,7 +46,7 @@ paths:
         '200':    # status code
           description: ticket created
           content:
-            text/plain:
+            application/json:
               schema: 
                 type: string
                 example: "Reschedule ticket created for flight MSA3028"
